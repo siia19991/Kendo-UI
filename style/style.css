@@ -9,3 +9,16 @@ span.km-text{font-size:40px}
 {
     visibility: visible;
 }
+
+
+.km-android #home .km-tabstrip a
+{
+ color: #a8a8a8;
+}
+.km-android #home .km-tabstrip .km-text
+{
+height: 3.7rem;
+padding-top: 1.8rem;
+text-indent: 0;
+font-size:0.9em;
+}
