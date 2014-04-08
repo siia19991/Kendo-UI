@@ -1,3 +1,6 @@
 .km-footer{background:red !important}
 .km-footer a{color:yellow !important}
 span.km-text{font-size:40px}
+
+.km-header{font-size: 30px;background: green;}
+.km-view-title{color:red !important}
