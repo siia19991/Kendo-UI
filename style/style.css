@@ -5,3 +5,7 @@ span.km-text{font-size:40px}
 .km-header{font-size: 30px;background: green;}
 .km-view-title{color:red !important}
 
+.km-android .km-view-title
+{
+    visibility: visible;
+}
