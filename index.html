@@ -61,6 +61,18 @@
         
         
         <script>
+        
+        
+        function linkopen() {
+    if (kendo.support.mobileOS.android) {
+        navigator.app.loadUrl("http://www.google.com", { openExternal:true } );
+    }
+    if (kendo.support.mobileOS.ios) {
+        window.open("http://www.google.com", '_system');
+    }
+}
+
+
 		
 		$(document).on('click', '.twShare', function () {
    var url=($(this).attr('id'));
